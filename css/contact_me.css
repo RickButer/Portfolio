@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.debug {
+    border: 1px solid black;
+}
+
+.wrapper {
+   
+}
+/* ********************************************************** */
+
+#navbar {
+    width: 100%;
+
+}
+
+@media screen and (min-width: 500px) {
+    #navbar {
+        position: fixed;
+        top: 0;
+    }
+}
+
+
+.navbar_container {
+    max-width: 1800px;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 500px) {
+    .navbar_container {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+#navbar a {
+    text-align: center;
+    text-decoration: none;
+    max-width: 120px;
+    color: black;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#navbar a:after {
+    display:block;
+    content: '';
+    border-bottom: solid 1px black;  
+    transform: scaleX(0);  
+    transition: transform 750ms ease-in-out;
+    padding-bottom: 10px;
+}
+
+#navbar a:hover:after{
+    transform: scaleX(1);
+}
+
+/* end navbar ************************************************************** */
