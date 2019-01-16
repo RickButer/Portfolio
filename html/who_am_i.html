@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    
+    <div id="blur">
         <div id="navbar">
             <div class="navbar_container">
                 <a href="#"></a>
@@ -26,17 +26,68 @@
                 <a href="#"></a>
             </div>
         </div>
-        <div class="down yellow" id="upFamily"><p onclick="familyOpen()">Family</p></div>
-        <!-- <div class="down yellow" id="upFamily"><p onclick="selecteer('family')">Family</p></div> -->
-        <div class="down green" id="upBiker"><p onclick="bikerOpen()">biker</p></div>
-        <div class="down blue" id="upChef"><p onclick="chefOpen()">chef</p></div>
-        <div class="down purple" id="upCoding"><p onclick="codingOpen()">coding</p></div>
-        
-        <!-- <div class="familyInfo"></div>
-        <div class="bikerInfo"></div>
-        <div class="chefInfo"></div>
-        <div class="codingInfo"></div> -->
+        <div class="down yellow" id="upFamily">
+            <p onclick="familyOpen()">Family</p>
+        </div>
+        <div class="down green" id="upBiker">
+            <p onclick="bikerOpen()">biker</p>
+        </div>
+        <div class="down blue" id="upChef">
+            <p onclick="chefOpen()">chef</p>
+        </div>
+        <div class="down purple" id="upCoding">
+            <p onclick="codingOpen()">coding</p>
+        </div>
 
+    </div>
+    <!--einde blur div-->
+    <div id="family_container">
+        <div class="family_photo"></div>
+        <div class="family_text">
+            <p>Ik ben een familieman.<span onclick="familyBack()">&#8617;</span><br /><br />
+                Mijn vrouw is geboren in Tokyo.<br />
+                We wonen nu al 11 jaar samen en hebben in 2017 een zoontje genaamd Ian gekregen.<br />
+                Mijn leven bestaat dus niet alleen maar uit coderen.<br />
+                Deel van de reden dat ik met coderen begonnen ben is juist zodat ik meer tijd heb voor mijn gezin.<br /><br />
+                In het weekend vind ik het heerlijk om met mijn gezien te gaan wandelen in de bossen, of ergens iets
+                drinken in de stad.</p>
+        </div>
+    </div>
+
+    <div id="biker_container">
+        <div class="biker_photo"></div>
+        <div class="biker_text">
+            <p>Er is voor mij weinig zo rustgevend als motorrijden.<span onclick="bikerBack()">&#8617;</span><br /><br />
+                Ik kan soms erg in het coderen blijven hangen.<br />
+                Als ik op mijn motor zit kan ik heerlijk aan andere dingen denken en krijgt alles een plekje.<br />
+                Ik vind het heerlijk om lekker op mijn triumph te toeren langs kleine boerenweggetjes.<br />
+                Ik zal dus waarschijnlijk op de motor bij je langskomen!</p>
+        </div>
+    </div>
+
+    <div id="chef_container">
+        <div class="chef_photo"></div>
+        <div class="chef_text">
+            <p>Koken is eigenlijk mijn eerste liefde.<span onclick="chefBack()">&#8617;</span><br />
+                Ik wist van kleins af aan al dat ik kok wilde worden.<br />
+                Als jongetje stond ik al cakes en taarten te bakken.<br />
+                Na de opleiding tot zelfstandig werkend kok heb ik nog 8 jaar als kok gewerkt.<br /><br />
+                Omdat ik toen een kind kreeg wilde ik toch wat meer in de avonduren en weekenden thuis zijn.<br /><br />
+                Ik vind het nog heerlijk om thuis eten te maken. maar dan echt als ontspanning en niet als werk.</p>
+        </div>
+    </div>
+
+    <div id="coding_container">
+        <div class="coding_photo"></div>
+        <div class="coding_text">
+            <p>Mijn liefde voor coderen is nog heel vers.<span onclick="codingBack()">&#8617;</span><br /><br />
+            Ik heb computers, het internet en software altijd al heel interessant gevonden.<br />
+            Toch won koken het van de computers toen ik klaar was met de middelbare school.<br />
+            Nu ik toch deze hoek in ben geslagen weet ik weer waarom ik het zo leuk vond.<br />
+            Er zit een heerlijke logica in het coderen. En als iets niet lukt, komt het omdat je zelf iets fout doet.<br />
+            Er valt in dit vak eindeloos te leren.</p>
+        </div>
+    </div>
     <script src="../javascript/who_am_i.js"></script>
 </body>
 

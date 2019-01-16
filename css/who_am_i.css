@@ -11,6 +11,7 @@ body {
     margin: 0;
     font-family: 'Barlow Condensed', sans-serif;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .debug {
@@ -19,6 +20,8 @@ body {
 
 
 /* ********************************************************** */
+
+
 
 #navbar {
     width: 100%;
@@ -81,7 +84,7 @@ body {
 /* end navbar ************************************************************** */
 
 .down {
-    
+
     transform: translateY(-700px);
     font-size: 120px;
     font-weight: bolder;
@@ -187,3 +190,162 @@ body {
 
 /* end colors sliding in ******************************************************* */
 
+#family_container {
+    width: 70vw;
+    height: 70vh;
+    margin: -550px 0 0 350px;
+    transition: 2s;
+    background-color: white;
+    transform: translateY(800px);
+    position: fixed;
+}
+
+.family_photo {
+    height: 100%;
+    width: 40%;
+    float: left;
+    background-image: url(../images/family.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.family_text {
+    height: 90%;
+    width: 50%;
+    float: right;
+    margin: 25px 30px 0 0;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.family_text p {
+    font-size: 20px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+.family_text span {
+    content: "\21A9";
+    margin-left: 300px;
+    font-size: 50px;
+  }
+
+#biker_container {
+    width: 70vw;
+    height: 70vh;
+    margin: -550px 0 0 350px;
+    transition: 3s;
+    transform: translateY(800px);
+    position: fixed;
+}
+
+.biker_photo {
+    height: 100%;
+    width: 40%;
+    float: left;
+    background-image: url(../images/biker.jpeg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.biker_text {
+    height: 90%;
+    width: 50%;
+    float: right;
+    margin: 25px 30px 0 0;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.biker_text p {
+    font-size: 20px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+.biker_text span {
+    content: "\21A9";
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+
+#chef_container {
+    width: 70vw;
+    height: 70vh;
+    margin: -550px 0 0 350px;
+    transition: 2s;
+    transform: translateY(800px);
+    position: fixed;
+}
+
+.chef_photo {
+    height: 100%;
+    width: 40%;
+    float: left;
+    background-image: url(../images/nobu1.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.chef_text {
+    height: 90%;
+    width: 50%;
+    float: right;
+    margin: 25px 30px 0 0;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.chef_text p {
+    font-size: 20px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+.chef_text span {
+    content: "\21A9";
+    font-size: 50px;
+    margin-left: 190px;
+}
+
+
+#coding_container {
+    width: 70vw;
+    height: 70vh;
+    margin: -550px 0 0 50px;
+    transition: 2s;
+    background-color: white;
+    position: fixed;
+    transform: translateY(800px)
+}
+
+.coding_photo {
+    height: 100%;
+    width: 37%;
+    float: left;
+    background-image: url(../images/code5.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.coding_text {
+    height: 90%;
+    width: 50%;
+    float: right;
+    margin: 25px 30px 0 0;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.coding_text p {
+    font-size: 20px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+.coding_text span {
+    content: "\21A9";
+    font-size: 50px;
+    margin-left: 150px;
+}
