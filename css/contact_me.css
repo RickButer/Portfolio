@@ -23,56 +23,31 @@ body {
 
 }
 
-@media screen and (min-width: 500px) {
-    #navbar {
-        position: fixed;
-        top: 0;
-    }
-}
-
-
 .navbar_container {
-    max-width: 1800px;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
-    font-size: 15px;
+    height: 5vw;
 }
 
-@media screen and (min-width: 500px) {
-    .navbar_container {
-        display: flex;
-        justify-content: space-around;
-    }
-}
 
 #navbar a {
     text-align: center;
     text-decoration: none;
-    max-width: 120px;
+    font-size: 20px;
     color: black;
-    display: inline-block;
-    width: 100%;
-    padding: 10px 0;
-    font-size: 18px;
     font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 8px;
 }
 
-
-#navbar a:after {
-    display:block;
-    content: '';
-    border-bottom: solid 1px black;  
-    transform: scaleX(0);  
-    transition: transform 750ms ease-in-out;
-    padding-bottom: 10px;
+#WAI {
+    margin-left: 23vw;
 }
-
-#navbar a:hover:after{
-    transform: scaleX(1);
+#HCIH {
+    margin-left: 17vw;
+    margin-right: 17vw;
 }
 
 /* end navbar ************************************************************** */
-
 
 .contact_box {
     width: 45%;
@@ -82,7 +57,6 @@ body {
     border-radius: 5%;
     float: left;
     opacity: 0.8;
-
 }
 
 .contact_box p {
@@ -98,13 +72,11 @@ body {
     line-height: 35px;
 }
 
-
-
 .color1 {
     width: 95%;
     height: 15vh;
     background-color: #eaca17;
-    margin-top: 160px;
+    margin-top: 80px;
 }
 
 .color1:before {
@@ -143,8 +115,6 @@ body {
     border-top: 120px solid white;
     border-left: 80px solid #01effc;
 }
-
-
 
 .color4 {
     width: 95%;

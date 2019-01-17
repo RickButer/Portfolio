@@ -15,37 +15,17 @@ body {
 .debug {
     border: 1px solid black;
 }
-
-.wrapper {
-   
-}
 /* ********************************************************** */
-
 #navbar {
     width: 100%;
 
 }
-
-@media screen and (min-width: 500px) {
-    #navbar {
-        position: fixed;
-        top: 0;
-    }
-}
-
 
 .navbar_container {
     max-width: 1800px;
     width: 70%;
     margin: 0 auto;
     font-size: 15px;
-}
-
-@media screen and (min-width: 500px) {
-    .navbar_container {
-        display: flex;
-        justify-content: space-around;
-    }
 }
 
 #navbar a {
@@ -59,7 +39,6 @@ body {
     font-size: 18px;
     font-family: 'Barlow Condensed', sans-serif;
 }
-
 
 #navbar a:after {
     display:block;

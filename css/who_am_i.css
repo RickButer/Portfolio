@@ -1,11 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     width: 100%;
     margin: 0;
@@ -13,78 +11,41 @@ body {
     justify-content: space-around;
     overflow: hidden;
 }
-
 .debug {
     border: 1px solid black;
 }
-
-
 /* ********************************************************** */
-
-
-
 #navbar {
     width: 100%;
 }
-
 @media screen and (min-width: 500px) {
     #navbar {
         position: fixed;
         top: 0;
     }
 }
-
-
 .navbar_container {
     width: 100%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 10vw 10vw 12vw 10vw 12vw 10vw 12vw 10vw 10vw;
     height: 5vw;
 }
-
-
 #navbar a {
     text-align: center;
     text-decoration: none;
-    width: 11vw;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
-    display: inline-block;
     font-family: 'Barlow Condensed', sans-serif;
     margin-top: 8px;
 }
-
-
-#navbar a:after {
-    display: block;
-    content: '';
-    border-bottom: solid 1px black;
-    transform: scaleX(0);
-    transition: transform 750ms ease-in-out;
-    padding-bottom: 10px;
-}
-
-#navbar a:hover:after {
-    transform: scaleX(1);
-}
-
 #WAI {
-    columns: 3/4;
+    margin-left: 23vw;
 }
-
 #HCIH {
-    columns: 5/6;
+    margin-left: 17vw;
+    margin-right: 17vw;
 }
-
-#C {
-    columns: 7/8;
-}
-
 /* end navbar ************************************************************** */
-
 .down {
-
     transform: translateY(-700px);
     font-size: 120px;
     font-weight: bolder;
@@ -92,14 +53,12 @@ body {
     display: inline-block;
     width: 10vw;
 }
-
 .down p {
     transform: rotate(-90deg);
     margin-top: 350px;
     margin-left: -20px;
     color: white;
 }
-
 .down:after {
     content: '';
     position: absolute;
@@ -107,24 +66,19 @@ body {
     border-bottom: 110px solid white;
     border-left: 155px solid #eaca17;
 }
-
 .yellow {
     background-color: #eaca17;
 }
-
 .yellow:after {
     content: '';
     position: absolute;
     bottom: 0;
     border-bottom: 110px solid white;
     border-left: 155px solid #eaca17;
-
 }
-
 .green {
     background-color: #7ffc02;
 }
-
 .green:after {
     content: '';
     position: absolute;
@@ -132,11 +86,9 @@ body {
     border-bottom: 110px solid white;
     border-left: 155px solid #7ffc02;
 }
-
 .blue {
     background-color: #01effc;
 }
-
 .blue:after {
     content: '';
     position: absolute;
@@ -144,11 +96,9 @@ body {
     border-bottom: 110px solid white;
     border-left: 155px solid #01effc;
 }
-
 .purple {
     background-color: #f700fc;
 }
-
 .purple:after {
     content: '';
     position: absolute;
@@ -156,7 +106,6 @@ body {
     border-bottom: 110px solid white;
     border-left: 155px solid #f700fc;
 }
-
 .up {
     width: 10vw;
     height: 650px;
@@ -166,30 +115,24 @@ body {
     color: white;
     transition: 1.5s;
 }
-
 #upFamily {
     height: 650px;
     margin-left: 10vw;
     margin-right: 12vw;
 }
-
 #upBiker {
     height: 650px;
     margin-right: 12vw;
 }
-
 #upChef {
     height: 650px;
     margin-right: 12vw;
 }
-
 #upCoding {
     height: 650px;
     margin-right: 10vw;
 }
-
 /* end colors sliding in ******************************************************* */
-
 #family_container {
     width: 70vw;
     height: 70vh;
@@ -199,7 +142,6 @@ body {
     transform: translateY(800px);
     position: fixed;
 }
-
 .family_photo {
     height: 100%;
     width: 40%;
@@ -208,7 +150,6 @@ body {
     background-size: cover;
     border-radius: 5%;
 }
-
 .family_text {
     height: 90%;
     width: 50%;
@@ -217,19 +158,16 @@ body {
     background-color: black;
     border-radius: 5%;
 }
-
 .family_text p {
     font-size: 20px;
     color: white;
     padding: 20px 20px 20px 20px;
 }
-
 .family_text span {
     content: "\21A9";
     margin-left: 300px;
     font-size: 50px;
-  }
-
+}
 #biker_container {
     width: 70vw;
     height: 70vh;
@@ -238,7 +176,6 @@ body {
     transform: translateY(800px);
     position: fixed;
 }
-
 .biker_photo {
     height: 100%;
     width: 40%;
@@ -247,7 +184,6 @@ body {
     background-size: cover;
     border-radius: 5%;
 }
-
 .biker_text {
     height: 90%;
     width: 50%;
@@ -256,20 +192,16 @@ body {
     background-color: black;
     border-radius: 5%;
 }
-
 .biker_text p {
     font-size: 20px;
     color: white;
     padding: 20px 20px 20px 20px;
 }
-
 .biker_text span {
     content: "\21A9";
     font-size: 50px;
     margin-left: 100px;
 }
-
-
 #chef_container {
     width: 70vw;
     height: 70vh;
@@ -278,7 +210,6 @@ body {
     transform: translateY(800px);
     position: fixed;
 }
-
 .chef_photo {
     height: 100%;
     width: 40%;
@@ -287,7 +218,6 @@ body {
     background-size: cover;
     border-radius: 5%;
 }
-
 .chef_text {
     height: 90%;
     width: 50%;
@@ -296,20 +226,16 @@ body {
     background-color: black;
     border-radius: 5%;
 }
-
 .chef_text p {
     font-size: 20px;
     color: white;
     padding: 20px 20px 20px 20px;
 }
-
 .chef_text span {
     content: "\21A9";
     font-size: 50px;
     margin-left: 190px;
 }
-
-
 #coding_container {
     width: 70vw;
     height: 70vh;
@@ -319,7 +245,6 @@ body {
     position: fixed;
     transform: translateY(800px)
 }
-
 .coding_photo {
     height: 100%;
     width: 37%;
@@ -328,7 +253,6 @@ body {
     background-size: cover;
     border-radius: 5%;
 }
-
 .coding_text {
     height: 90%;
     width: 50%;
@@ -337,13 +261,11 @@ body {
     background-color: black;
     border-radius: 5%;
 }
-
 .coding_text p {
     font-size: 20px;
     color: white;
     padding: 20px 20px 20px 20px;
 }
-
 .coding_text span {
     content: "\21A9";
     font-size: 50px;
