@@ -58,6 +58,7 @@ body {
     margin-top: 350px;
     margin-left: -20px;
     color: white;
+    cursor: pointer;
 }
 .down:after {
     content: '';
@@ -168,6 +169,7 @@ body {
     content: "\21A9";
     margin-left: 300px;
     font-size: 50px;
+    cursor: pointer;
 }
 #biker_container {
     width: 70vw;
@@ -203,6 +205,7 @@ body {
     content: "\21A9";
     font-size: 50px;
     margin-left: 100px;
+    cursor: pointer;
 }
 #chef_container {
     width: 70vw;
@@ -238,6 +241,7 @@ body {
     content: "\21A9";
     font-size: 50px;
     margin-left: 190px;
+    cursor: pointer;
 }
 #coding_container {
     width: 70vw;
@@ -274,4 +278,5 @@ body {
     content: "\21A9";
     font-size: 50px;
     margin-left: 150px;
+    cursor: pointer;
 }
